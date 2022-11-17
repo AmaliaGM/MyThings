@@ -1,11 +1,11 @@
 require 'json'
 
-class Book
-  attr_accessor :title, :author, :rentals
+class Book < Item
+  attr_accessor :label, :author
 
-  def initialize(title, author)
-    @title = title
+  def initialize(label, author)
+    @label = label
     @author = author
-    @rentals = []
+    @books = []
   end
 end

@@ -80,5 +80,5 @@ class Main
   end
 end
 
-my_things = Main.new
-my_things.show_app
+main = Main.new
+puts main.run
